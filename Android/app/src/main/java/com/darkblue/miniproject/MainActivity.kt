@@ -311,7 +311,7 @@ class MainActivity : ComponentActivity() {
                 modifier = Modifier
 //                    .clip(RoundedCornerShape(200.dp))
                     .padding(10.dp)
-                    .size(500.dp)
+                    .size(450.dp)
                     .clickable {
                         image = false
                         imageBitmap = null
@@ -458,7 +458,7 @@ class MainActivity : ComponentActivity() {
                     val interactionSource = remember { MutableInteractionSource() }
                     Box(
                         modifier = Modifier
-                            .height(if (image || imageBitmap != null) 650.dp else 300.dp)
+                            .height(if (image || imageBitmap != null) 550.dp else 300.dp)
                             .clip(RoundedCornerShape(20.dp))
                             .background(MaterialTheme.colorScheme.secondaryContainer)
 //                            .background(MyRedSecondaryLight)
