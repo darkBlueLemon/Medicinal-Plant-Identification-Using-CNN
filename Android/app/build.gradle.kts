@@ -76,5 +76,8 @@ dependencies {
     implementation (libs.converter.scalars) // For scalar conversions
     implementation (libs.logging.interceptor) // Optional for logging
     implementation (libs.okhttp)
+
+    implementation (libs.lottie.compose)
+
 //    }
 }
